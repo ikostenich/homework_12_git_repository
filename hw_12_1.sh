@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "Id is: $(cat test_hw12.json | jq '.Id')"
-#echo "$(cat test_hw12.json | jq '.Statement[0].Action[0].s3="test"')"
+
 replace_action_string() {
     echo $1
     echo $2
